@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Register</title>
+</head>
+<body>
+<center>
+	<h1>login</h1>
+	<form>
+	<input type="text" id="id" placeholder="ID"><br>
+	<input type="text" id="mail-id" placeholder="mailid"><br>
+	<input type="text" id="user-name" placeholder="username"><br>
+	
+	
+	<button id="addbtn"><br>
+	Add
+	</button>
+	<button id="drowsybtn"><br>
+	drowsiness
+	</button>
+	
+	</form>
+</center>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAtx6wxiIhnW4YghEM9uQJbPzPf0H2ezxc",
+    authDomain: "first-project-bc060.firebaseapp.com",
+    databaseURL: "https://first-project-bc060.firebaseio.com",
+    projectId: "first-project-bc060",
+    storageBucket: "first-project-bc060.appspot.com",
+    messagingSenderId: "697953659940",
+    appId: "1:697953659940:web:c81b4716bf4c232c6dfcb1",
+    measurementId: "G-GLC9R92PNG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="connect.js"></script>
+</body>
+</html>
+
+
+
+
